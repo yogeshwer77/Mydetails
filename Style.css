@@ -1,0 +1,81 @@
+*{
+    background-color: #fefefe;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+.navbar{
+    border-bottom:2px solid #dedede ;
+}
+#navBar{
+position: sticky;
+top: 0px;
+z-index: 1;
+}
+
+li a:hover{
+    /* border-bottom:1px solid #dedede ; */
+    /* font-size: .9rem; */
+    background-color: #F0F0F0;
+}
+.img{
+    /* border: 2px solid; */
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#img{
+    width: 380px;
+}
+#abut{
+    text-align: center;
+}
+#abut h1{
+    color: #588bae;
+}
+#abut h1{
+    padding:8px 0px;
+}
+h3{
+    line-height: 40px !important;
+}
+#btn{
+    width: 120px;
+    padding: 15px 0px;
+    border-radius: 10px;
+}
+@media (max-width: 500px){
+    .project{
+        margin-bottom: 40px !important;
+        padding: 5px !important;
+        /* border: 2px solid; */
+    }
+    .bio-text{
+        text-align: center;
+    }
+    .bio{
+        height: 200px !important;
+        text-align: center;
+    }
+    #abut h1{
+        font-size:40px ;
+    }
+    .img{
+        /* border: 2px solid; */
+        height: 440px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #abut h3{
+        font-size:20px;
+        line-height: 30px !important;
+    }
+}
