@@ -18,7 +18,10 @@ position: sticky;
 top: 0px;
 z-index: 1;
 }
-
+#conbtn:hover{
+    color: white;
+    
+}
 li a:hover{
     /* border-bottom:1px solid #dedede ; */
     /* font-size: .9rem; */
@@ -51,7 +54,49 @@ h3{
     padding: 15px 0px;
     border-radius: 10px;
 }
+/* #btn:hover{
+    background-color: #588bae;
+} */
+@media (max-width: 800px){
+    .bio{
+        height: 185px !important;
+    }
+    .gif{
+        height: 150px !important;
+    }
+}
+@media (max-width: 1000px){
+    .card-img-top{
+        height: 200px!important;
+    }
+    .gif{
+        height: 170px !important;
+    }
+}
+@media (max-width: 770px){
+    .bio-text{
+        display: flex;
+        justify-content: center;
+    }
+    .card-img-top{
+        width: 200px!important;
+    }
+    .card_gif{
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .idimg{
+        height: 540px !important;
+        padding: 0px 140px !important;
+    }
+}
 @media (max-width: 500px){
+    #navBar{
+        position: sticky;
+        top: 0px;
+        z-index: 1;
+        }
     .project{
         margin-bottom: 40px !important;
         padding: 5px !important;
@@ -69,13 +114,28 @@ h3{
     }
     .img{
         /* border: 2px solid; */
-        height: 440px;
+        height: 570px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
+    .cardimg{
+        height: 250px !important;
+    }
     #abut h3{
         font-size:20px;
         line-height: 30px !important;
+    }
+    #ab{
+        margin-left:15px !important;
+    }
+    #pr{
+        margin-left:40px !important;
+    }
+    .navbar-brand{
+        margin-left: 20px;
+    }
+    .gif{
+        height: 200px !important;
     }
 }
