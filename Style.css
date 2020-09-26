@@ -57,15 +57,7 @@ h3{
 /* #btn:hover{
     background-color: #588bae;
 } */
-@media (max-width: 800px){
-    .bio{
-        height: 185px !important;
-    }
-    .gif{
-        height: 150px !important;
-    }
-}
-@media (max-width: 1000px){
+/* @media (max-width: 1000px){
     .card-img-top{
         height: 200px!important;
     }
@@ -73,7 +65,16 @@ h3{
         height: 170px !important;
     }
 }
-@media (max-width: 770px){
+@media (max-width: 800px){
+    .bio{
+        height: 185px !important;
+    }
+    .gif{
+        height: 150px !important;
+    }
+} */
+
+/* @media (max-width: 770px){
     .bio-text{
         display: flex;
         justify-content: center;
@@ -90,7 +91,7 @@ h3{
         height: 540px !important;
         padding: 0px 140px !important;
     }
-}
+} */
 @media (max-width: 500px){
     #navBar{
         position: sticky;
